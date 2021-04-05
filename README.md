@@ -10,7 +10,7 @@
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-pytest
+python -m pytest
 uvicorn main:app --reload
 ```
 
